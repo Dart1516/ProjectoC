@@ -33,6 +33,19 @@ class Program
         {
         Console.WriteLine("greater");
         }
+    
+    
+    string valueInText = "42";
+    int number = int.Parse(valueInText);
+
+    Console.Write("What is your favorite number? ");
+    string userInput = Console.ReadLine();
+    int number1 = int.Parse(userInput);
+
+    
+    int number2 = 42;
+    string textVersion = number2.ToString();
+    
 
     }
     
