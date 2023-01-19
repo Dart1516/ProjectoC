@@ -89,7 +89,7 @@ class Program {
 
                             } else {
                                 
-                                validation_loop_on_going= validation_method(validation_loop_on_going, validation_answers);
+                                validation_loop_on_going= Validation_method(validation_loop_on_going, validation_answers);
                             }
                         }while (validation_loop_on_going == "yes");   
                     }   
@@ -128,7 +128,7 @@ class Program {
                                 validation_loop_on_going = "no";
                             } else {
                                 
-                                validation_loop_on_going= validation_method(validation_loop_on_going, validation_answers);
+                                validation_loop_on_going= Validation_method(validation_loop_on_going, validation_answers);
                             } 
                         }while (validation_loop_on_going == "yes");
                     } 
@@ -154,7 +154,7 @@ class Program {
                                 }
                         } else {
                                 
-                                validation_loop_on_going= validation_method(validation_loop_on_going, validation_answers);
+                                validation_loop_on_going= Validation_method(validation_loop_on_going, validation_answers);
                             } 
 
                     }while(validation_loop_on_going == "yes");
@@ -180,7 +180,7 @@ class Program {
                             validation_loop_on_going = "no";
                         } else {
 
-                                validation_loop_on_going= validation_method(validation_loop_on_going, validation_answers);
+                                validation_loop_on_going= Validation_method(validation_loop_on_going, validation_answers);
                             }    
 
                         }while (validation_loop_on_going == "yes");
@@ -206,7 +206,7 @@ class Program {
             }while (app_on == "yes");     
               
     }
-    static string validation_method( string loop, string answer)
+    static string Validation_method( string loop, string answer)
     {
         if (answer == "n") 
             {
